@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>СиНбутстрап</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="position-absolute w-100">
+        <nav class="navbar navbar-expand-lg py-5">
+            <div class="container">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <div class="d-lg-none d-flex align-items-center gap-4">
+                <a class="" href="#"><i class="bi bi-search h5 py-2 px-4"></i></a>
+                <a class="" href="#"><i class="bi bi-cart h5 py-2 px-4"></i></a>
+                <button class="navbar-toggler border-0 px-4 py-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop" aria-label="Toggle navigation">
+                    <img src="./img/Vector.png" width="24">
+                  </button>
+              </div>
+              </div>
+			  <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+				<div class="offcanvas-header">
+				  <h5 class="offcanvas-title" id="offcanvasTopLabel">Navbar</h5>
+				  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+				</div>
+				<div class="offcanvas-body">
+					<ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-4 text-center">
+						<li class="nav-item">
+						  <a class="nav-link" aria-current="page" href="#">Home</a>
+						</li>
+						<li class="nav-item">
+						  <a class="nav-link" href="#">Product</a>
+						</li>
+						<li class="nav-item">
+						  <a class="nav-link" href="#">Pricing</a>
+						</li>
+						<li class="nav-item">
+						  <a class="nav-link" href="#">Contact</a>
+						</li>
+					  </ul>
+				</div>
+			  </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <section class="home">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6 home__text">
+                        <h1 class="home__header">First-Class Business Consultant</h1>
+                        <h2 class="home__subheader">We know how large objects will act, 
+                            but things on a small scale.</h2>
+                        <div class="home__actions">
+                            <button class="home__btn home__btn--orange">Get Quote Now</button>
+                            <button class="home__btn">Learn More</button>
+                        </div>
+                    </div>
+                    <div class="col-md-6 px-4">
+                        <img src="/img/agent-v 1.png" alt="" class="home__img w-100">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about">
+          <div class="container">
+            <div class="row text-center">
+              <h1 class="about__header">What We Do</h1>
+              <p class="about__subheader col-md-6 mx-auto">Problems trying to resolve the conflict between 
+                the two major realms of Classical physics: Newtonian mechanics</p>
+            </div>
+
+            <div class="row about__cards">
+              <div class="col-md-4">
+                <div class="about__card">
+						<svg class="card__img" width="48" height="41" viewBox="0 0 48 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M42.5886 8.52554H37.519V3.45592C37.519 2.55955 37.1629 1.6999 36.5291 1.06608C35.8953 0.432251 35.0356 0.0761719 34.1393 0.0761719H13.8608C12.9644 0.0761719 12.1048 0.432251 11.4709 1.06608C10.8371 1.6999 10.481 2.55955 10.481 3.45592V8.52554H5.41142C4.06687 8.52554 2.77739 9.05966 1.82665 10.0104C0.875916 10.9611 0.341797 12.2506 0.341797 13.5952V37.2534C0.341797 38.1497 0.697876 39.0094 1.3317 39.6432C1.96553 40.2771 2.82518 40.6331 3.72154 40.6331H44.2785C45.1749 40.6331 46.0345 40.2771 46.6683 39.6432C47.3022 39.0094 47.6582 38.1497 47.6582 37.2534V13.5952C47.6582 12.2506 47.1241 10.9611 46.1734 10.0104C45.2227 9.05966 43.9332 8.52554 42.5886 8.52554ZM13.8608 3.45592H34.1393V8.52554H13.8608V3.45592ZM44.2785 37.2534H3.72154V22.0445H17.2405V30.4939H30.7595V22.0445H44.2785V37.2534ZM20.6203 22.0445H27.3798V27.1141H20.6203V22.0445ZM3.72154 18.6648V13.5952C3.72154 13.147 3.89958 12.7172 4.2165 12.4002C4.53341 12.0833 4.96323 11.9053 5.41142 11.9053H42.5886C43.0368 11.9053 43.4666 12.0833 43.7836 12.4002C44.1005 12.7172 44.2785 13.147 44.2785 13.5952V18.6648H3.72154Z" fill="#0D5C63"/>
+							</svg>
+                  <div class="card__text h5">Environmental</div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="about__card">
+						<svg class="card__img" width="48" height="41" viewBox="0 0 48 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M42.5886 8.52554H37.519V3.45592C37.519 2.55955 37.1629 1.6999 36.5291 1.06608C35.8953 0.432251 35.0356 0.0761719 34.1393 0.0761719H13.8608C12.9644 0.0761719 12.1048 0.432251 11.4709 1.06608C10.8371 1.6999 10.481 2.55955 10.481 3.45592V8.52554H5.41142C4.06687 8.52554 2.77739 9.05966 1.82665 10.0104C0.875916 10.9611 0.341797 12.2506 0.341797 13.5952V37.2534C0.341797 38.1497 0.697876 39.0094 1.3317 39.6432C1.96553 40.2771 2.82518 40.6331 3.72154 40.6331H44.2785C45.1749 40.6331 46.0345 40.2771 46.6683 39.6432C47.3022 39.0094 47.6582 38.1497 47.6582 37.2534V13.5952C47.6582 12.2506 47.1241 10.9611 46.1734 10.0104C45.2227 9.05966 43.9332 8.52554 42.5886 8.52554ZM13.8608 3.45592H34.1393V8.52554H13.8608V3.45592ZM44.2785 37.2534H3.72154V22.0445H17.2405V30.4939H30.7595V22.0445H44.2785V37.2534ZM20.6203 22.0445H27.3798V27.1141H20.6203V22.0445ZM3.72154 18.6648V13.5952C3.72154 13.147 3.89958 12.7172 4.2165 12.4002C4.53341 12.0833 4.96323 11.9053 5.41142 11.9053H42.5886C43.0368 11.9053 43.4666 12.0833 43.7836 12.4002C44.1005 12.7172 44.2785 13.147 44.2785 13.5952V18.6648H3.72154Z" fill="#0D5C63"/>
+							</svg>
+                  <div class="card__text h5">Save money and time</div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="about__card">
+						<svg class="card__img" width="48" height="41" viewBox="0 0 48 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M42.5886 8.52554H37.519V3.45592C37.519 2.55955 37.1629 1.6999 36.5291 1.06608C35.8953 0.432251 35.0356 0.0761719 34.1393 0.0761719H13.8608C12.9644 0.0761719 12.1048 0.432251 11.4709 1.06608C10.8371 1.6999 10.481 2.55955 10.481 3.45592V8.52554H5.41142C4.06687 8.52554 2.77739 9.05966 1.82665 10.0104C0.875916 10.9611 0.341797 12.2506 0.341797 13.5952V37.2534C0.341797 38.1497 0.697876 39.0094 1.3317 39.6432C1.96553 40.2771 2.82518 40.6331 3.72154 40.6331H44.2785C45.1749 40.6331 46.0345 40.2771 46.6683 39.6432C47.3022 39.0094 47.6582 38.1497 47.6582 37.2534V13.5952C47.6582 12.2506 47.1241 10.9611 46.1734 10.0104C45.2227 9.05966 43.9332 8.52554 42.5886 8.52554ZM13.8608 3.45592H34.1393V8.52554H13.8608V3.45592ZM44.2785 37.2534H3.72154V22.0445H17.2405V30.4939H30.7595V22.0445H44.2785V37.2534ZM20.6203 22.0445H27.3798V27.1141H20.6203V22.0445ZM3.72154 18.6648V13.5952C3.72154 13.147 3.89958 12.7172 4.2165 12.4002C4.53341 12.0833 4.96323 11.9053 5.41142 11.9053H42.5886C43.0368 11.9053 43.4666 12.0833 43.7836 12.4002C44.1005 12.7172 44.2785 13.147 44.2785 13.5952V18.6648H3.72154Z" fill="#0D5C63"/>
+							</svg>
+                  <div class="card__text h5">Financial Services</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+		  <section class="clients">
+			<div class="container">
+				<div class="row text-center">
+					<h1 class="h2 clients__header">Every Client Matters</h1>
+					<p class="clients__subheader col-md-6 mx-auto">Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics</p>
+				</div>
+				<div class="row clients__cards">
+					<div class="col-lg-3 col-md-6">
+						<div class="client__card card border-0">
+							<div class="card-body">
+								<div class="card__header">A single source of truth</div>
+								<p class="card__text">Newton thought that 
+									light was made up of 
+									particles, but then it 
+									was discovered</p>
+							</div>
+							<img src="./img/Source.svg" alt="" class="card-img-bottom">
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<div class="client__card card border-0">
+							<div class="card-body">
+								<div class="card__header">Fastest way to 
+									organize</div>
+								<p class="card__text">“Quantum mechanics” 
+									is the description of the 
+									behaviour of matter</p>
+							</div>
+							<img src="./img/Fastest.svg" alt="" class="card-img-bottom">
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<div class="client__card card border-0">
+						<div class="card-body">
+							<div class="card__header">Fastest way to 
+								take action</div>
+							<p class="card__text">They describe a 
+								universe consisting of 
+								bodies moving</p>
+							</div>
+							<img src="./img/Action.svg" alt="" class="card-img-bottom">
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<div class="client__card card border-0">
+							<div class="card-body">
+								<div class="card__header">Work better 
+									together</div>
+								<p class="card__text">They finally obtained 
+									a consistent description 
+									of the behaviour </p>
+							</div>
+							<img src="./img/Work.svg" alt="" class="card-img-bottom">
+						</div>
+					</div>
+				</div>
+			</div>
+		  </section>
+    </main>
+    <footer class="footer">
+		<div class="footer__contact">
+			<div class="container">
+				<div class="row justify-content-between align-items-center">
+					<div class="col-md-6">
+						<div class="h3">Consulting Agency For Your Business</div>
+						<p>the quick fox jumps over the lazy dog</p>
+					</div>
+					<div class="col-md-3">
+						<button class="contact__button" data-bs-toggle="modal" data-bs-target="#contact">Contact Us</button>
+						<div class="modal fade" id="contact" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+							<div class="modal-dialog">
+							  <div class="modal-content">
+								 <div class="modal-header">
+									<h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+									<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+								 </div>
+								 <div class="modal-body">
+									...
+								 </div>
+								 <div class="modal-footer">
+									<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+									<button type="button" class="btn btn-primary">Save changes</button>
+								 </div>
+							  </div>
+							</div>
+						 </div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer__info">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-2">
+						<div class="h5 mb-3">Company Info</div>
+					<a href="" class="footer__link">About Us</a>
+					<a href="" class="footer__link">Carrier</a>
+					<a href="" class="footer__link">We are hiring</a>
+					<a href="" class="footer__link">Blog</a>
+				</div>
+					<div class="col-md-2">
+						<div class="h5 mb-3">Legal</div>
+						<a href="" class="footer__link">About Us</a>
+						<a href="" class="footer__link">Carrier</a>
+						<a href="" class="footer__link">We are hiring</a>
+						<a href="" class="footer__link">Blog</a>
+				</div>
+					<div class="col-md-2">
+						<div class="h5 mb-3">Features</div>
+						<a href="" class="footer__link">Business Marketing</a>
+						<a href="" class="footer__link">User Analytic</a>
+						<a href="" class="footer__link">Live Chat</a>
+						<a href="" class="footer__link">Unlimited Support</a>
+					</div>
+					<div class="col-md-2">
+						<div class="h5 mb-3">Resources</div>
+						<a href="" class="footer__link">IOS & Android</a>
+						<a href="" class="footer__link">Watch a Demo</a>
+						<a href="" class="footer__link">Customers</a>
+						<a href="" class="footer__link">API</a>
+					</div>
+					<div class="col-md-4">
+						<div class="h5 mb-3">Get In Touch</div>
+						<a href="" class="footer__link"><i class="bi bi-telephone"></i>(480) 555-0103</a>
+						<a href="" class="footer__link"><i class="bi bi-geo"></i>4517 Washington Ave. Manchestar, Kentucky 39495</a>
+						<a href="" class="footer__link"><i class="bi bi-send"></i>flartev@Yandex.ru</a>
+					</div>
+				</div>
+			</div>
+		</div>
+			</div>
+		<div class="footer__social">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-7">Made With Love By Figmaland All Right Reserved </div>
+					<div class="col-md-5">
+						<div class="d-flex ms-auto gap-3 justify-content-end">
+							<i class="bi bi-facebook text-primary h5"></i>
+							<i class="bi bi-instagram text-danger h5"></i>
+							<i class="bi bi-twitter text-primary h5"></i>
+							<i class="bi bi-youtube text-danger h5"></i>
+						</div>
+					</div>
+			</div>
+		</div>
+	 </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
